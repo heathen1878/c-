@@ -1,0 +1,13 @@
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\bin\Debug\netcoreapp3.1\App.exe
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\bin\Debug\netcoreapp3.1\App.deps.json
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.json
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\bin\Debug\netcoreapp3.1\App.runtimeconfig.dev.json
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\bin\Debug\netcoreapp3.1\App.dll
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\bin\Debug\netcoreapp3.1\App.pdb
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\obj\Debug\netcoreapp3.1\App.csprojAssemblyReference.cache
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\obj\Debug\netcoreapp3.1\App.AssemblyInfoInputs.cache
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\obj\Debug\netcoreapp3.1\App.AssemblyInfo.cs
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\obj\Debug\netcoreapp3.1\App.csproj.CoreCompileInputs.cache
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\obj\Debug\netcoreapp3.1\App.dll
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\obj\Debug\netcoreapp3.1\App.pdb
+C:\Users\dominic.clayton\GitHub\c-sharp\src\App\obj\Debug\netcoreapp3.1\App.genruntimeconfig.cache
