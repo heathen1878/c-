@@ -1,0 +1,13 @@
+trigger:
+- main
+
+pool:
+  vmImage: vs2017-win2016
+
+steps:
+- task: VSBuild@1
+  inputs:
+    solution: '**\*.sln'
+    vsVersion: '15.0'
+    clean: true
+    msbuildArchitecture: 'x64'
