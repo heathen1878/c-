@@ -10,12 +10,12 @@ namespace ClassDemo
     {
         static void Main(string[] args)
         {
-            int pay;
+            Decimal pay;
 
             Console.WriteLine("\n Staff name ?");
             string name = Console.ReadLine();
             Console.WriteLine("\n How many hours worked?");
-            int hoursWorked = Convert.ToInt32(Console.ReadLine());
+            Decimal hoursWorked = Convert.ToDecimal(Console.ReadLine());
             Console.WriteLine("\n Bonus value");
             int bonus = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\n Allowance value");
@@ -25,10 +25,14 @@ namespace ClassDemo
             staffPay.HoursWorked = hoursWorked;
 
             if (bonus > 0 || allowance > 0)
+            {
                 pay = staffPay.CalculatePay(bonus, allowance);
+            } 
             else
+            {
                 pay = staffPay.CalculatePay();
- 
+            }
+            
             Console.WriteLine("Pay = {0}", pay);
                                
         }
@@ -38,9 +42,9 @@ namespace ClassDemo
     {
         private string _nameOfStaff;
         private const int _hourlyRate = 30;
-        private int _hoursWorked;
+        private Decimal _hoursWorked;
 
-        public int HoursWorked
+        public Decimal HoursWorked
         {
             get
             {
@@ -60,7 +64,7 @@ namespace ClassDemo
             Console.WriteLine("Calculating Pay...");
         }
 
-        public int CalculatePay()
+        public Decimal CalculatePay()
         {
             PrintMessage();
 
@@ -70,7 +74,7 @@ namespace ClassDemo
                 return 0;
         }
 
-        public int CalculatePay(int bonus, int allowance)
+        public Decimal CalculatePay(int bonus, int allowance)
         {
             PrintMessage();
 
