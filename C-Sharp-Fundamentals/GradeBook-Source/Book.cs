@@ -15,8 +15,16 @@ namespace GradeBook
 
         public void AddGrade(double grade)
         {
-            _grades.Add(grade);
-        }
+            if (grade <= 100 && grade >= 0)
+            {
+                _grades.Add(grade);
+            }
+            else
+            {
+                _grades.Add(0);
+            }
+            
+        }    
 
         public Statistics ComputeStatistics()
         {
@@ -48,7 +56,7 @@ namespace GradeBook
 
         // Class fields
         private List<double> _grades;
-        private string _name;
+        public string _name;
 
     }
 }
