@@ -4,4 +4,4 @@
 
 ## [Microsoft Learn](MicrosoftLearn/readme.md)
 
-## [Learn C# Pluralsight](PluralsightCourse/README.md)
+## [Learn C# Pluralsight](C-Sharp-Fundamentals/README.md)
